@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search-form{
+    margin-bottom: 100px;
+}
+.search-result {
+    margin-bottom: 10px;
+}
+.search-result a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0366d6;
+}
+.search-result a:hover {
+    text-decoration: underline;
+}
+.search-result p {
+    margin: 0;
+}
+.search-result .repo-name {
+    font-size: 1.2rem;
+}
+.search-result .repo-description {
+    font-size: 1rem;
+    color: #586069;
+}
+.search-result .repo-stats {
+    font-size: 0.8rem;
+    color: #586069;
+}
+.search-result .repo-stats span {
+    margin-right: 10px;
+}
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
